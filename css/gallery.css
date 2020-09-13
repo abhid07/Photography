@@ -1,0 +1,108 @@
+
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+
+#nav-bar
+{
+    top: 0;
+    z-index: 10;
+    background:linear-gradient(to right, #0f2027, #203a43, #2c5364); ;
+}
+
+.navbar
+{
+  padding: 0 !important;
+
+} 
+.logoimg
+{
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px ;
+    
+}
+
+
+.navbar-nav li a
+{
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    transition: all 1s ease 0s;
+    opacity: 0.8;
+}
+
+.navbar-nav li a:hover
+{
+    border-left:2px solid #39ff14;
+    opacity: 1;
+    transform: scale(1.2);
+    border-bottom: none;
+}
+.active
+{
+    border-bottom:2px solid #39ff14;
+}
+/*---------------------------------------------*/
+.mainbg
+{
+   background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/gallerybg.jpg');
+  min-height: 100%;
+}
+.pimg1
+{
+   background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('../images/leaf.jpg');
+  min-height:400px;
+}
+.pimg1, .mainbg , .pimg2{
+  position:relative;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+.aboutme
+{
+    position:absolute;
+    width: 100%;
+    top: 50%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    
+}
+.section-light
+{
+  background: white;
+  color: black;
+}
+.section
+{
+  text-align:center;
+  padding:50px 80px;
+}
+.videogalleryimg
+{
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 500px;
+  height:500px;
+}
+.galleryimg
+{
+  width: 400px;
+  height: 400px;
+}
